@@ -1,0 +1,21 @@
+#greeting{
+ margin-top: 10px;
+ margin-left: 30px;
+}
+#msg{
+    color:black;
+    font-weight: 600;
+    font-size:1.6em;
+}
+.dash #name{
+display: inline;
+color:#14a800;
+margin-right: 10px;
+margin-left: 5px;
+}
+#hi{
+align-items: center;
+}
+.dash{
+    margin-top:80px;
+}
