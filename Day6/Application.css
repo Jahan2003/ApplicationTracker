@@ -1,0 +1,27 @@
+ #textapp{
+    float: right;
+}
+#tick{
+    font-size: 40px;
+    color:#14a800;
+    float: right;
+    margin-top: -35px;
+}
+#applied p{
+    font-size:25px;
+    font-weight: bold;
+    color:#14a800;
+    margin-top: -25px;
+    margin-right: 10px;
+}
+#textapp{
+    display: flex;
+    flex-direction: row;
+}
+#date{
+    float: right;
+    margin-right:-90px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}

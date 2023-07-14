@@ -1,0 +1,28 @@
+#container{
+    display: flex;
+    flex-direction:row;
+    margin-top: 120px;
+    margin-left:30px;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+.class #detls{
+    border-bottom: 2px solid grey;
+}
+.header{
+    font-size: 22px;
+    font-weight: bold;
+}
+#des{
+    margin-top: 15px;
+}
+#c2{
+    margin-left: 20px;
+}
+#container .job-cardj{
+    padding: 0px 30px;
+    width:70vw;
+}
+#container #viewbtn{
+    margin-top: -35px;
+}

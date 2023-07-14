@@ -1,0 +1,54 @@
+#applyForm{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding:30px 14px;
+    display:flex;
+    flex-direction:column;
+    margin-top: 10%;
+    margin-left:10%; 
+    height:60vh;
+    width:40vw;
+    justify-content: center;
+    align-items: center;
+    
+}
+#applyForm h2{
+    margin-top: -20px;
+}
+#mainframe{
+    display: flex;
+    flex-direction: row;
+}
+.input{
+    padding:10px 10px 10px 10px;
+    width:450px;
+    border:1px solid #e2e4e7;
+    border-radius: 8px; 
+    margin-bottom:20px;
+}
+.input:focus{
+    outline:none;
+    border:2px solid #14a800;
+}
+#applyForm .errors{
+    color:#de2211;
+    font-size: 12px;
+    margin-bottom:10px;
+    margin-left: 2px;
+    margin-top: -12px;
+}
+#formsub{
+    padding:8px 30px;
+    width:10vw;
+    background-color: #4caf50;
+    border:none;
+    border-radius:5px;
+    font-size:15px;
+    color: white;
+    margin-left:150px
+}
+
+#imageapply{
+    margin-top: 100px;
+    margin-left: 30px;
+}
