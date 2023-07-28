@@ -1,0 +1,107 @@
+  .profile-container {
+      display: flex;
+      flex-direction:row;
+      margin-left:160px;
+      margin-top:7%;
+     
+    }
+    #edit{
+      color:#45a049;
+      font-size:30px;
+      cursor: pointer;
+    }
+    #save{
+      color:#45a049;
+      font-size:30px;
+      cursor: pointer;
+    }
+    input{
+      outline:none;
+      padding:4px 5px;
+      border-radius: 8px;
+      border:2px solid #ccc;
+    }
+    input:focus{
+      border-color: #4caf50;
+    }
+    .profile {
+      /* border: 1px solid #ccc; */
+      padding: 30px 40px;
+      width: 600px;
+      border-radius: 10px;
+      margin-top:10px;
+      width: 50vw;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    #profilepic{
+      margin-left:-250px;
+      margin-top: 70px;
+    }
+    .profile-section {
+      display: flex;
+      margin-bottom: 10px;
+    }
+    
+    .profile-section label {
+      font-weight: bold;
+      width: 150px;
+      margin-right: 10px;
+    }
+    
+    .profile-buttons {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 20px;
+    }
+    
+    .profile-buttons button {
+      padding: 10px 20px;
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    
+    .profile-buttons button:hover {
+      background-color: #45a049;
+    }
+    
+    input {
+      width: 100%;
+    }
+    #profileimg{
+      margin-top: 5px;
+    }
+
+    .stats-container {
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+      padding-top: 10px;
+      height:60vh;
+      width:18vw;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      margin-left: 60px;
+      border-radius: 10px;
+    }
+    
+    .stat {
+      text-align: center;
+      background-color: #fafcfe;
+      padding: 10px;
+      margin-top: 2px;
+    }
+    
+    
+    .stat h3 {
+      margin: 0;
+      font-size: 16px;
+    }
+    
+    .stat p {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    #act-title{
+      margin-left: 70px;
+    }

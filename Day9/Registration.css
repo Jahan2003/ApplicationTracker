@@ -1,0 +1,110 @@
+#email,#address,.registration #password,#contactNumber,#degree,#specialization,#college,#PassingYear,#cgpa{
+    padding:10px 10px 10px 10px;
+    width:450px;
+    border:1px solid #e2e4e7;
+    border-radius: 8px; 
+}
+#firstName,#lastName{
+    padding:10px 10px 10px 10px;
+    width:215px;
+    border:1px solid #e2e4e7;
+    border-radius: 8px; 
+}
+#name{
+    display: flex;
+    flex-direction: row;
+}
+.registration #form{
+    display:flex;
+    flex-direction:column;
+    margin-top: 60px;
+    margin-left:0; 
+ }
+#firstName:focus,#lastName:focus,#address:focus,#email:focus,#password:focus,#contactNumber:focus,
+#degree:focus,#specialization:focus,#college:focus,#PassingYear:focus,#cgpa:focus{
+    outline:none;
+    border:2px solid #14a800;
+}
+.registration .error{
+    color:#de2211;
+    font-size: 12px;
+    margin-bottom:0px;
+    margin-left: 2px;
+    margin-top: 5px;
+}
+.registration #form{
+    justify-content: center;  
+    align-items: center;
+}
+#regis{
+    color:black;
+    font-size: 30px;
+    font-weight:bold;
+}
+#name{
+    margin-bottom:20px;
+}
+#fname{
+ margin-right:15px;
+}
+#emailid{
+ margin-bottom:20px;
+}
+#add{
+margin-bottom:20px;  
+}
+#pass{
+margin-bottom:20px;  
+ }
+#no,#Pass,#collg,#cg,#deg,#spec{
+margin-bottom:20px;  
+}
+#degree{
+    background-color: white;
+}
+.registration button{
+    padding:8px 200px;
+    border-radius: 8px;
+    border:none;
+    background-color:#14a800;
+    color:white;
+    font-size:15px;
+    cursor: pointer;
+}
+#sitag{
+    color:black;
+    font-size: 12px;
+    padding:2px 50px;
+}
+#si{
+    color:#14a800
+}
+#si:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#sigin{
+    margin-top:5px;
+}
+#regimg{
+    margin-top: 170px;
+    height:440px;
+    width: 620px;
+}
+
+#frame{
+    display: flex;
+    flex-direction:row;
+}
+@media only screen and (max-width: 768px) {
+ #email,#address,.registration #password,#contactNumber{
+   width:350px;
+}
+#firstName,#lastName{
+   width:165px; 
+   padding:8px 0px;
+}
+.registration #form{
+    margin-left:0px;
+}
+}
