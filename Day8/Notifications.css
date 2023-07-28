@@ -1,0 +1,60 @@
+#notification{
+    margin-top: 70px;
+    margin-left: 80px;
+    padding:5px 30px;
+    width:80%;
+    margin-bottom: 50px;
+}
+#noti{
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+#notificationhead{
+    font-size: 20px;
+    font-weight: bold;
+   color:#14a800;
+   margin-top: -20px;
+   margin-left: 8px;
+}
+#notificationtime{
+    justify-content: end;
+}
+#title-notification p{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+.dot{
+    background-color: #1c87c9;
+    -webkit-border-radius: 60px;
+    border-radius: 50px;
+    border: none;
+    color: #eeeeee;
+    cursor: pointer;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 6px;
+    margin-left:-20px;
+    text-align: center;
+    text-decoration: none;
+  }
+  @keyframes glowing {
+    0% {
+      background-color: #ef160b;
+      box-shadow: 0 0 5px #ef160b;;
+    }
+    50% {
+      background-color: #ef160b;;
+      box-shadow: 0 0 20px #ef160b;
+    }
+    100% {
+      background-color: #ef160b;;
+      box-shadow: 0 0 5px #ef160b;;
+    }
+  }
+  .dot {
+    animation: glowing 1300ms infinite;
+  }
+  

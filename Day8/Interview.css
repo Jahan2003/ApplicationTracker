@@ -1,0 +1,28 @@
+#interview{
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 20%;
+}
+#interview-head p{
+   font-size: 30px;
+   font-weight: bold;
+}
+#interview label{
+    font-size: 15px;
+    display: flex;
+    flex-direction:row;
+    margin-bottom: -20px;
+    align-items: center;
+    font-weight: bold;
+}
+#interview label p{
+    margin-left: 10px;
+    font-weight: 100;
+}
+#interview .company{
+margin-bottom:0px;
+}
+#interview .job-cardj{
+    margin-bottom: 25px;
+}

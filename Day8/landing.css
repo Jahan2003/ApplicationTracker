@@ -1,0 +1,93 @@
+#first-con{
+    display: flex;
+    flex-direction: row;
+}
+
+#img-sec{
+    margin-top: 5%;
+    margin-left:14%;
+}
+#maintextp{
+    color:#14a800;
+    margin-bottom: 30px;
+    font-size: 48px;
+    font-weight: bold;
+}
+#main-text{
+    margin-top: 10%;
+    width:35vw;
+    margin-left:3%;
+}
+#taglinep{
+    font-size: 15px;
+    
+}
+#get-started{
+  padding:13px 52px;
+  font-size: 15px;
+  background-color: #14a800;
+  color:white;
+  outline: none;
+  border-radius:30px;
+  border:none;
+  margin-top: 15px;
+  margin-left: -8px;
+}
+#loginlanding{
+  padding:11px 55px;
+  font-size: 15px;
+  color:#14a800;
+  background-color: white;
+  outline: none;
+  border-radius:30px;
+  border:2px solid #14a800;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+#howitworks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:-10px;
+    margin-top: 0px;
+}
+#howitworkshead{
+   font-size: 25px;
+   font-weight: bold;
+   color:#14a800;
+   margin-bottom: 10px;
+   
+}
+#howitworkshead p{
+    border-bottom: 2px solid #14a800;
+    padding-bottom: 3px;
+}
+#grid{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+    margin-left: 7.5%;
+}
+#grid .box{
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    width: 25vw;
+    padding:20px 30px;
+    margin-right:60px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 40px;
+}
+#nthbox{
+    margin-left: 31.9%;
+}
+#howitworks{
+    display: flex;
+    flex-direction: column;
+}
+.boxtitle{
+    font-weight: bold;
+    color: #14a800;
+    font-size: 20px;
+    
+}

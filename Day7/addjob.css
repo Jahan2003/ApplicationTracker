@@ -1,0 +1,7 @@
+#add-job{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -10%;
+    margin-top: 2%;
+}

@@ -1,0 +1,51 @@
+#jobstats{
+    display: flex;
+    flex-direction: row;
+}
+#jobstats p{
+  margin-bottom:0; 
+}
+.jobstats-con{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+    width:10%
+}
+.jobstats-num{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top:3px;
+}
+#job-status{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#editbtn,#closebtn,#addjob{
+    padding:8px 30px;
+    background-color: #4caf50;
+    border:none;
+    border-radius:5px;
+    font-size:15px;
+    color: white;
+    float: right;
+    margin-left: -20px;
+    cursor: pointer;
+  }
+  #closebtn{
+      background-color: red;
+      margin-right: 20px;
+}
+#editbtn{
+    margin-right:40px;
+}
+#addjob{
+    margin-top: 20px;
+    padding:10px 40px;
+    margin-right: -404px;
+}
+#search-add{
+    display: flex;
+    flex-direction: row;
+}
